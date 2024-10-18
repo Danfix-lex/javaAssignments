@@ -1,8 +1,20 @@
 import java.util.Scanner;
 
-public class palindrome {
+public class bmi {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        System.out.print("Enter an integer between 0 and 1000: ");
-        int number = input.nextInt();
+        System.out.print("Enter your weight(kilograms): ");
+        double weight = input.nextDouble();
+        
+        System.out.print("Enter your height(meters): ");
+        double number = input.nextDouble();
+        
+        double height = number * number;
+        
+        double bmi = weight / height;
+       
+    System.out.println(bmi);       
+       
+    }
+}
