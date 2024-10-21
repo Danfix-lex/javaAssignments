@@ -8,22 +8,12 @@ public class BarChart {
         while (count < 5) {
             System.out.print("Enter a number between 1 and 30: ");
             int num = scanner.nextInt();
-            if (num < 1) {
-                System.out.print("Invalid input. Try again: ");
-                num = scanner.nextInt();
-                if (num < 1) {
-                    System.out.print("Invalid input. Exiting.");
-                    break;
-                }
+
+            if (num < 1 || num > 30) {
+                System.out.print("Invalid input. Exiting.");
+                break;
             }
-            if (num > 30) {
-                System.out.print("Invalid input. Try again: ");
-                num = scanner.nextInt();
-                if (num > 30) {
-                    System.out.print("Invalid input. Exiting.");
-                    break;
-                }
-            }
+
             for (int j = 0; j < num; j++) {
                 System.out.print("*");
             }
@@ -31,5 +21,4 @@ public class BarChart {
             count++;
         }
     }
-}
 
