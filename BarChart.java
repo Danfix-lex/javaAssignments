@@ -1,22 +1,34 @@
+import java.util.Scanner;
+
 public class BarChart {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int count = 0;
 
-        for (int i = 0; i < 5; i++) {
+        while (count < 5) {
             System.out.print("Enter a number between 1 and 30: ");
             int num = scanner.nextInt();
-            while (num < 1) {
+            if (num < 1) {
                 System.out.print("Invalid input. Try again: ");
                 num = scanner.nextInt();
+                if (num < 1) {
+                    System.out.print("Invalid input. Exiting.");
+                    break;
+                }
             }
-            while (num > 30) {
+            if (num > 30) {
                 System.out.print("Invalid input. Try again: ");
                 num = scanner.nextInt();
+                if (num > 30) {
+                    System.out.print("Invalid input. Exiting.");
+                    break;
+                }
             }
             for (int j = 0; j < num; j++) {
                 System.out.print("*");
             }
             System.out.println();
+            count++;
         }
     }
 }

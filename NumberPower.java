@@ -12,6 +12,5 @@ public class NumberPower {
             result *= numOne;
         }
         System.out.println(result);
-        scanner.close();
     }
 }
