@@ -7,18 +7,16 @@ public class BarChart {
 
         while (count < 5) {
             System.out.print("Enter a number between 1 and 30: ");
-            int num = scanner.nextInt();
+            int number = scanner.nextInt();
 
-            if (num < 1 || num > 30) {
+            if (number < 1 || number > 30) {
                 System.out.print("Invalid input. Exiting.");
                 break;
             }
 
-            for (int j = 0; j < num; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
+            System.out.println("*".repeat(number));
             count++;
         }
     }
+}
 
