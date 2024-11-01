@@ -15,9 +15,9 @@ public class Multiples {
         int doubleNum2 = num2 * 2;
         
         if (tripleNum1 % doubleNum2 == 0) {
-            System.out.println("Yes, " + tripleNum1 + " is a multiple of " + doubleNum2);
+            System.out.println("Yes you are correct: , " + tripleNum1 + " is a multiple of " + doubleNum2);
         } else {
-            System.out.println("No, " + tripleNum1 + " is not a multiple of " + doubleNum2);
+            System.out.println("No give it another try!!! , " + tripleNum1 + " is not a multiple of " + doubleNum2);
         }
         
     }
