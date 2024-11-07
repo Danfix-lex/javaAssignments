@@ -183,7 +183,7 @@ public class NokiaPhoneReturn {
         System.out.println("0. Back to Main Menu");
 
         if (nokia.nextInt() == 0) {
-            return;  // Return to main menu
+            return; 
         }
     }
 

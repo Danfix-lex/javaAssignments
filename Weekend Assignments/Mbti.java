@@ -33,17 +33,19 @@ public class Mbti {
         char[] answers = {'A', 'B'};
 
         for (int questionNumber = 0; questionNumber < questions.length; questionNumber += 1) {
+
             System.out.println(questions[questionNumber][0]);
             System.out.println(questions[questionNumber][1]);
 
             System.out.print("Choose your answer (A or B): ");
             char userAnswer = input.nextLine().toUpperCase().charAt(0);
 
-            while (userAnswer != 'A' && userAnswer != 'B') {
+            if (userAnswer != 'A' && userAnswer != 'B') {
                 System.out.print("Invalid answer. Please choose either A or B: ");
                 userAnswer = input.nextLine().toUpperCase().charAt(0);
             }
         }
+    
         
         System.out.println("Thank you for completing the MBTI test, " + name + "!");
     }
