@@ -1,12 +1,11 @@
 public class ArrayContainsValue {
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5}; 
-        int target = 3; 
+        int[] numbers = {1, 2, 3, 4, 5};
+        int target = 3;
+        boolean found = false;
 
-        boolean found = false; 
-
-        for (int number : numbers) {
-            if (number == target) {
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == target) {
                 found = true;
                 break;
             }
