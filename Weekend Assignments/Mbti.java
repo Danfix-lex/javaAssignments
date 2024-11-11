@@ -6,6 +6,9 @@ public class Mbti {
 
         System.out.println("What is your name: ");
         String name = input.nextLine();
+        
+        int countA[] = new int [4];
+        int countB[] = new int [4];
 
         String[][] questions = {
             {"Question 1:\nA. Expanded Energy, Enjoy Groups", "B. Conserve Energy, Enjoy One-on-One"},
@@ -30,21 +33,29 @@ public class Mbti {
             {"Question 20:\nA. Control, Govern", "B. Latitude, Freedom"}
         };
 
-        char[] answers = {'A', 'B'};
-
-        for (int questionNumber = 0; questionNumber < questions.length; questionNumber += 1) {
-
-            System.out.println(questions[questionNumber][0]);
-            System.out.println(questions[questionNumber][1]);
+        for (int questionNumber = 0; questionNumber < 4; questionNumber += 1) {
+          for (int question = questionNumber; question < questions.length; question += 4) {
+            System.out.println(questions[question][0]);
+            System.out.println(questions[question][1]);
 
             System.out.print("Choose your answer (A or B): ");
-            char userAnswer = input.nextLine().toUpperCase().charAt(0);
+            String userAnswer = input.nextLine();
 
-            if (userAnswer != 'A' && userAnswer != 'B') {
-                System.out.print("Invalid answer. Please choose either A or B: ");
-                userAnswer = input.nextLine().toUpperCase().charAt(0);
+            if (userAnswer.equalsIgnoreCase("A") || userAnswer.equalsIgnoreCase("B")) {
+              if (userAnswer.equalsIgnoreCase("A")) {
+                  countA[question]++;
+                  System.out.println(questionNumber);
+              } else if (userAnswer.equalsIgnoreCase("B")) {
+                  countB[question]++;
+                  System.out.println(questionNumber);
+              }
+            }
+            else {
+                  System.out.println("Error please choose a valid answer by selecting either (A) or (B): ");                  
+              question -= 4;
             }
         }
+      }
     
         
         System.out.println("Thank you for completing the MBTI test, " + name + "!");
