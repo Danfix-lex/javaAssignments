@@ -1,14 +1,18 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Mbti {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("What is your name: ");
-        String name = input.nextLine();
-        
-        int countA[] = new int [4];
-        int countB[] = new int [4];
+        System.out.println("Enter your first name: ");
+        String firstName = input.nextLine();
+        System.out.println("Enter your last name: ");
+        String lastName = input.nextLine();
+        System.out.println("Hello" + " " + firstName + " " + lastName + " " + "Welcome");
+
+        int countA[] = new int[4];
+        int countB[] = new int[4];
 
         String[][] questions = {
             {"Question 1:\nA. Expanded Energy, Enjoy Groups", "B. Conserve Energy, Enjoy One-on-One"},
@@ -33,32 +37,76 @@ public class Mbti {
             {"Question 20:\nA. Control, Govern", "B. Latitude, Freedom"}
         };
 
-        for (int questionNumber = 0; questionNumber < 4; questionNumber += 1) {
-          for (int question = questionNumber; question < questions.length; question += 4) {
-            System.out.println(questions[question][0]);
-            System.out.println(questions[question][1]);
+        for (int questionNumber = 0; questionNumber < 4; questionNumber++) {
+            for (int question = questionNumber; question < questions.length; question += 4) {
+                System.out.println(questions[question][0]);
+                System.out.println(questions[question][1]);
 
-            System.out.print("Choose your answer (A or B): ");
-            String userAnswer = input.nextLine();
+                System.out.print("Choose your answer (A or B): ");
+                String userAnswer = input.nextLine();
 
-            if (userAnswer.equalsIgnoreCase("A") || userAnswer.equalsIgnoreCase("B")) {
-              if (userAnswer.equalsIgnoreCase("A")) {
-                  countA[question]++;
-                  System.out.println(questionNumber);
-              } else if (userAnswer.equalsIgnoreCase("B")) {
-                  countB[question]++;
-                  System.out.println(questionNumber);
-              }
-            }
-            else {
-                  System.out.println("Error please choose a valid answer by selecting either (A) or (B): ");                  
-              question -= 4;
+                if (userAnswer.equalsIgnoreCase("A") || userAnswer.equalsIgnoreCase("B")) {
+                    if (userAnswer.equalsIgnoreCase("A")) {
+                        countA[questionNumber]++;
+                    } else if (userAnswer.equalsIgnoreCase("B")) {
+                        countB[questionNumber]++;
+                    }
+                } else {
+                    System.out.println("Error: please choose a valid answer by selecting either (A) or (B).");
+                    question -= 4;
+                }
             }
         }
-      }
-    
-        
-        System.out.println("Thank you for completing the MBTI test, " + name + "!");
+
+        String[] optionsA = {"E", "S", "T", "J"};
+        String[] optionsB = {"I", "N", "F", "P"};
+        String mbtiType = "";
+
+        for (int i = 0; i < 4; i++) {
+          if (countA[i] > countB[i]) { 
+            mbtiType += optionsA[i];
+          } else {
+              mbtiType += optionsB[i];
+            }
+        }
+
+
+        System.out.println("Thank you for completing the MBTI test, " + firstName + " " + lastName + "!");
+        System.out.println("Your MBTI personality type is: " + mbtiType);
+
+        System.out.println("\nExplanation of your MBTI type:");
+        for (int i = 0; i < mbtiType.length(); i++) {
+          char personality = mbtiType.charAt(i);
+          switch (personality) {
+            case 'E':
+              System.out.println("E Extraverted - Focused on the outer world, enjoys interacting with others.");
+              break;
+            case 'I':
+              System.out.println("I Introverted - Focused on the inner world, prefers solitude.");
+              break;
+            case 'S':
+              System.out.println("S Sensing - Focuses on facts and present realities.");
+              break;
+            case 'N':
+              System.out.println("N Intuitive - Focuses on possibilities and abstract ideas.");
+                break;
+            case 'T':
+              System.out.println("T Thinking - Makes decisions based on logic and analysis.");
+              break;
+            case 'F':
+              System.out.println("F Feeling - Makes decisions based on values and empathy.");
+              break;
+            case 'J':
+              System.out.println("J Judging - Prefers order, structure, and planning.");
+              break;
+            case 'P':
+              System.out.println("P Perceiving - Prefers flexibility and going with the flow.");
+              break;
+            default:
+              System.out.println("Invalid MBTI type.");
     }
 }
+
+            }
+        }
 
