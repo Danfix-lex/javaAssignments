@@ -13,12 +13,7 @@ import java.util.Arrays;
     System.out.print("True");
     } else {
       System.out.print("False");
-    
+      }
     }
-    
-    }
- 
- 
- 
   }
 }
