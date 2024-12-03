@@ -15,7 +15,10 @@ public class LagbajaSchoolStudentGradeApp {
 	    int[] secondStudentScore = new int [4];
 	    int[] thirdStudentScore = new int [4];
 	    int[] fourthStudentScore = new int [4];
+	    int firstSubjectHighest = Integer.MIN_VALUE;
+	    int lowest = Integer.MAX_VALUE;
 	    int highest = Integer.MIN_VALUE;
+	    
 	
 	    System.out.println("Welcome Teacher please enter the number of student or enter (-1) if you have finished entering the number of students: ");
 	    int studentCount = 1;
@@ -121,19 +124,51 @@ public class LagbajaSchoolStudentGradeApp {
       }
         for (int i = 0; i < 4; i++) {
           if (firstStudentScore[i] > highest) {
-            highest = firstStudentScore[i]
+            highest = firstStudentScore[i];
           }
         }
         for (int i = 0; i < 4; i++) {
-        
+          if (secondStudentScore[i] > highest) {
+            highest = secondStudentScore[i];
+          }
         }
-            System.out.println(highest);
+        for (int i = 0; i < 4; i++) {
+          if (thirdStudentScore[i] > highest) {
+            highest = thirdStudentScore[i];
+          }
         }
-
-
-
-
-
-
+        for (int i = 0; i < 4; i++) {
+          if (fourthStudentScore[i] > highest) {
+            highest = fourthStudentScore[i];
+          }
+        }
+            System.out.printf("The highest score is: %d%n", highest);
+            
+        for (int i = 0; i < 4; i++) {
+          if (firstStudentScore[i] < lowest) {
+            lowest = firstStudentScore[i];
+          }
+        }
+        for (int i = 0; i < 4; i++) {
+          if (secondStudentScore[i] < lowest) {
+            lowest = secondStudentScore[i];
+          }
+        }
+        for (int i = 0; i < 4; i++) {
+          if (thirdStudentScore[i] < lowest) {
+            lowest = thirdStudentScore[i];
+          }
+        }
+        for (int i = 0; i < 4; i++) {
+          if (fourthStudentScore[i] < lowest) {
+            lowest = fourthStudentScore[i];
+          }
+        }
+            System.out.printf("The lowest score is: %d%n", lowest);
+            System.out.println( "=====================================================================================================");
+            System.out.println( "%-15s%-15s%-15s%-15s%-15s\n", "Subject", "Array 1", "Array 2", "Array 3", "Array 4");
+            System.out.println( "=====================================================================================================");
+            System.out.printf( "%-15s%-15d%-15%-15%-15", firstStudentScore[0], firstStudentScore[1], firstStudentScore[2], firstStudentScore[3]);
+            
+        }
     }
-	}
