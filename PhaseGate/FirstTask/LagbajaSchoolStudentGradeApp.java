@@ -189,15 +189,48 @@ public class LagbajaSchoolStudentGradeApp {
         float thirdStudentAverage = thirdStudentTotal / 4;
         float fourthStudentAverage = fourthStudentTotal / 4;
         
+        String firstPosition = "1";
+        String secondPosition = "2";
+        String thirdPosition = "3";
+        String fourthPosition = "4";
+
+        float max = firstStudentAverage;
+        if (secondStudentAverage > max && secondStudentAverage > thirdStudentAverage && secondStudentAverage > fourthStudentAverage) {
+          secondPosition = "1";
+          firstPosition = "2";
+          thirdPosition = "3";
+          fourthPosition = "4";
+        } else if (thirdStudentAverage > max && thirdStudentAverage > fourthStudentAverage) {
+          thirdPosition = "1";
+          firstPosition = "2";
+          secondPosition = "3";
+          fourthPosition = "4";
+          } else if (fourthStudentAverage > max) {
+              fourthPosition = "1";
+              thirdPosition = "2";
+              secondPosition = "3";
+              firstPosition = "4";
+            } else {
+                firstPosition = "1";
+                secondPosition = "2";
+                thirdPosition = "3";
+                fourthPosition = "4";
+} 
+          for (int i = 0; i < subjectNumber.length; i++) {
+            
+            
+          }
             System.out.printf("The lowest score is: %d%n\n", lowest);
-            System.out.println( "==================================================================================================================");
+            System.out.println( "=============================================================================================================");
             System.out.printf( "%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s\n", "STUDENT", "SUB1", "SUB2", "SUB3", "SUB4", "TOT", "AVE", "POS");
-            System.out.println( "==================================================================================================================");
-            System.out.printf( "%-15s%-15d%-15d%-15d%-15d%-15d%-15.2f\n", "Student 1", firstStudentScore[0], firstStudentScore[1], firstStudentScore[2], firstStudentScore[3], firstStudentTotal, firstStudentAverage);
-            System.out.printf( "%-15s%-15d%-15d%-15d%-15d%-15d%-15.2f\n", "Student 2", secondStudentScore[0], secondStudentScore[1], secondStudentScore[2], secondStudentScore[3], secondStudentTotal, secondStudentAverage);
-            System.out.printf( "%-15s%-15d%-15d%-15d%-15d%-15d%-15.2f\n", "Student 3", thirdStudentScore[0], thirdStudentScore[1], thirdStudentScore[2], thirdStudentScore[3], thirdStudentTotal, thirdStudentAverage);
-            System.out.printf( "%-15s%-15d%-15d%-15d%-15d%-15d%-15.2f\n", "Student 4", fourthStudentScore[0], fourthStudentScore[1], fourthStudentScore[2], fourthStudentScore[3], fourthStudentTotal, fourthStudentAverage);
-            System.out.println( "==================================================================================================================");
-            System.out.println( "==================================================================================================================");
+            System.out.println( "=============================================================================================================");
+            System.out.printf( "%-15s%-15d%-15d%-15d%-15d%-15d%-15.2f%-15s\n", "Student 1", firstStudentScore[0], firstStudentScore[1], firstStudentScore[2], firstStudentScore[3], firstStudentTotal, firstStudentAverage, firstPosition);
+            System.out.printf( "%-15s%-15d%-15d%-15d%-15d%-15d%-15.2f%-15s\n", "Student 2", secondStudentScore[0], secondStudentScore[1], secondStudentScore[2], secondStudentScore[3], secondStudentTotal, secondStudentAverage, secondPosition);
+            System.out.printf( "%-15s%-15d%-15d%-15d%-15d%-15d%-15.2f%-15s\n", "Student 3", thirdStudentScore[0], thirdStudentScore[1], thirdStudentScore[2], thirdStudentScore[3], thirdStudentTotal, thirdStudentAverage, thirdPosition);
+            System.out.printf( "%-15s%-15d%-15d%-15d%-15d%-15d%-15.2f%-15s\n", "Student 4", fourthStudentScore[0], fourthStudentScore[1], fourthStudentScore[2], fourthStudentScore[3], fourthStudentTotal, fourthStudentAverage, fourthPosition);
+            System.out.println( "=============================================================================================================");
+            System.out.println( "=============================================================================================================");
+            
+            
         }
     }
