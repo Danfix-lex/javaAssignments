@@ -15,6 +15,7 @@ public class LagbajaSchoolStudentGradeApp {
 	    int[] secondStudentScore = new int [4];
 	    int[] thirdStudentScore = new int [4];
 	    int[] fourthStudentScore = new int [4];
+	    int highest = Integer.MIN_VALUE;
 	
 	    System.out.println("Welcome Teacher please enter the number of student or enter (-1) if you have finished entering the number of students: ");
 	    int studentCount = 1;
@@ -51,10 +52,10 @@ public class LagbajaSchoolStudentGradeApp {
 	}
 	
       for (int k = 0; k < studentNumber.length; k++) {
-        System.out.printf("Entering score for student %d%n", k+1);
         int scoreCount = 1;
         for (int l = 0; l < subjectNumber.length+1; l++) {
           if (scoreCount != 5) {
+          System.out.printf("Entering score for student %d%n", k+1);
           System.out.printf("Enter score for subject %d:", scoreCount);
           firstStudentScore[l] = input.nextInt();
           System.out.println("Saving >>>>>>>>>>>>>>>>>>>>>>>>>>");
@@ -68,10 +69,10 @@ public class LagbajaSchoolStudentGradeApp {
         break;
       }
       for (int k = 0; k < studentNumber.length; k++) {
-        System.out.printf("Entering score for student %d%n", k+2);
         int scoreCount = 1;
         for (int l = 0; l < subjectNumber.length+1; l++) {
           if (scoreCount != 5) {
+          System.out.printf("Entering score for student %d%n", k+2);
           System.out.printf("Enter score for subject %d:", scoreCount);
           secondStudentScore[l] = input.nextInt();
           System.out.println("Saving >>>>>>>>>>>>>>>>>>>>>>>>>>");
@@ -85,10 +86,10 @@ public class LagbajaSchoolStudentGradeApp {
         break;
       }
       for (int k = 0; k < studentNumber.length; k++) {
-        System.out.printf("Entering score for student %d%n", k+3);
         int scoreCount = 1;
         for (int l = 0; l < subjectNumber.length+1; l++) {
           if (scoreCount != 5) {
+          System.out.printf("Entering score for student %d%n", k+3);
           System.out.printf("Enter score for subject %d:", scoreCount);
           thirdStudentScore[l] = input.nextInt();
           System.out.println("Saving >>>>>>>>>>>>>>>>>>>>>>>>>>");
@@ -102,10 +103,10 @@ public class LagbajaSchoolStudentGradeApp {
         break;
       }
       for (int k = 0; k < studentNumber.length; k++) {
-        System.out.printf("Entering score for student %d%n", k+4);
         int scoreCount = 1;
         for (int l = 0; l < subjectNumber.length+1; l++) {
           if (scoreCount != 5) {
+          System.out.printf("Entering score for student %d%n", k+4);
           System.out.printf("Enter score for subject %d:", scoreCount);
           fourthStudentScore[l] = input.nextInt();
           System.out.println("Saving >>>>>>>>>>>>>>>>>>>>>>>>>>");
@@ -118,7 +119,16 @@ public class LagbajaSchoolStudentGradeApp {
         }
         break;
       }
-
+        for (int i = 0; i < 4; i++) {
+          if (firstStudentScore[i] > highest) {
+            highest = firstStudentScore[i]
+          }
+        }
+        for (int i = 0; i < 4; i++) {
+        
+        }
+            System.out.println(highest);
+        }
 
 
 
