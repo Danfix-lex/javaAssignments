@@ -5,10 +5,13 @@ import java.util.Arrays;
 public class LagbajaSchoolStudentGradeApp {
 	public static void main(String[] args) {
 	  Scanner input = new Scanner(System.in);
-	
+
+		
 	    System.out.println("Welcome to Lagbaja School Student's Grade App");
 	    System.out.println();
-	    
+
+
+		
 	    int[] studentNumber = new int [4];
 	    int[] subjectNumber = new int [4];
 	    int[] firstStudentScore = new int [4];
@@ -19,8 +22,11 @@ public class LagbajaSchoolStudentGradeApp {
 	    int lowest = Integer.MAX_VALUE;
 	    int highest = Integer.MIN_VALUE;
 	    
-	
-	    System.out.println("Welcome Teacher please enter the number of student or enter (-1) if you have finished entering the number of students: ");
+
+
+
+		
+      System.out.println("Welcome Teacher please enter the number of student or enter (-1) if you have finished entering the number of students: ");
 	    int studentCount = 1;
       for (int i = 0; i < 10; i++) {
         if (studentCount == 5 ) {
@@ -28,6 +34,8 @@ public class LagbajaSchoolStudentGradeApp {
           System.out.println();
         break;
         }
+
+	      
       System.out.println("Enter the student number in accordance to the below student number (e.g 1, 2, 3 etc...)");
       System.out.println();
       System.out.print("Student's "+studentCount+": ");
@@ -37,7 +45,9 @@ public class LagbajaSchoolStudentGradeApp {
       System.out.println("Saved successfully");
       System.out.println();
 	}
-	    System.out.println("Welcome Teacher please enter the number of subject or enter (-1) if you have finished entering the number of subjects: ");
+
+		
+      System.out.println("Welcome Teacher please enter the number of subject or enter (-1) if you have finished entering the number of subjects: ");
 	    int subjectCount = 1;
       for (int j = 0; j < 10; j++) {
         if (subjectCount == 5 ) {
@@ -45,6 +55,8 @@ public class LagbajaSchoolStudentGradeApp {
           System.out.println();
         break;
         }
+
+	      
       System.out.println("Enter the subject number in accordance to the below subject number (e.g 1, 2, 3 etc...)");
       System.out.println();
       System.out.print("Subject's "+subjectCount+": ");
@@ -53,7 +65,8 @@ public class LagbajaSchoolStudentGradeApp {
       System.out.println("Saving >>>>>>>>>>>>>>>>>>>>>>>>>>");
       System.out.println("Saved successfully");
 	}
-	
+
+
       for (int k = 0; k < studentNumber.length; k++) {
         int scoreCount = 1;
         for (int l = 0; l < subjectNumber.length+1; l++) {
@@ -71,6 +84,8 @@ public class LagbajaSchoolStudentGradeApp {
         }
         break;
       }
+
+		
       for (int k = 0; k < studentNumber.length; k++) {
         int scoreCount = 1;
         for (int l = 0; l < subjectNumber.length+1; l++) {
@@ -88,6 +103,8 @@ public class LagbajaSchoolStudentGradeApp {
         }
         break;
       }
+
+		
       for (int k = 0; k < studentNumber.length; k++) {
         int scoreCount = 1;
         for (int l = 0; l < subjectNumber.length+1; l++) {
@@ -105,6 +122,8 @@ public class LagbajaSchoolStudentGradeApp {
         }
         break;
       }
+
+		
       for (int k = 0; k < studentNumber.length; k++) {
         int scoreCount = 1;
         for (int l = 0; l < subjectNumber.length+1; l++) {
@@ -122,6 +141,8 @@ public class LagbajaSchoolStudentGradeApp {
         }
         break;
       }
+
+		
         for (int i = 0; i < 4; i++) {
           if (firstStudentScore[i] > highest) {
             highest = firstStudentScore[i];
@@ -142,7 +163,11 @@ public class LagbajaSchoolStudentGradeApp {
             highest = fourthStudentScore[i];
           }
         }
+
+		
             System.out.printf("The highest score is: %d%n", highest);
+
+
             
         for (int i = 0; i < 4; i++) {
           if (firstStudentScore[i] < lowest) {
@@ -164,6 +189,7 @@ public class LagbajaSchoolStudentGradeApp {
             lowest = fourthStudentScore[i];
           }
         }
+		
         
         int firstStudentTotal = 0;
         for (int k = 0; k < firstStudentScore.length; k++) {
@@ -184,16 +210,20 @@ public class LagbajaSchoolStudentGradeApp {
         for (int k = 0; k < fourthStudentScore.length; k++) {
           fourthStudentTotal += fourthStudentScore[k];
         }
+
+		
         float firstStudentAverage = firstStudentTotal / 4;
         float secondStudentAverage = secondStudentTotal / 4;
         float thirdStudentAverage = thirdStudentTotal / 4;
         float fourthStudentAverage = fourthStudentTotal / 4;
-        
+
+		
         String firstPosition = "1";
         String secondPosition = "2";
         String thirdPosition = "3";
         String fourthPosition = "4";
 
+		
         float max = firstStudentAverage;
         if (secondStudentAverage > max && secondStudentAverage > thirdStudentAverage && secondStudentAverage > fourthStudentAverage) {
           secondPosition = "1";
@@ -220,6 +250,8 @@ public class LagbajaSchoolStudentGradeApp {
             
             
           }
+
+		
             System.out.printf("The lowest score is: %d%n\n", lowest);
             System.out.println( "=============================================================================================================");
             System.out.printf( "%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s\n", "STUDENT", "SUB1", "SUB2", "SUB3", "SUB4", "TOT", "AVE", "POS");
