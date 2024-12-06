@@ -5,6 +5,8 @@ public class AtmAppFunction {
     static String[] userPins = new String[numAccounts];
     static String[] userDateOfBirths = new String[numAccounts];
     static double[] accountBalances = new double[numAccounts];
+
+
     
     public static String createAccounts() {
         for (int i = 0; i < numAccounts; i++) {
@@ -16,6 +18,9 @@ public class AtmAppFunction {
         return "Accounts created successfully.";
     }
 
+
+
+    
     public static int authenticateUser(String enteredPin) {
         for (int i = 0; i < userPins.length; i++) {
             if (enteredPin.equals(userPins[i])) {
@@ -25,6 +30,9 @@ public class AtmAppFunction {
         return -1;
     }
 
+
+
+    
     public static void displayOptions() {
         System.out.println("\nATM Options:");
         System.out.println("1. Check account balance");
@@ -73,11 +81,17 @@ public class AtmAppFunction {
         return true;
     }
 
+
+
+    
     public static double depositMoney(int accountIndex, double depositAmount) {
         accountBalances[accountIndex] += depositAmount;
         return depositAmount;
     }
 
+
+
+    
     public static double withdrawMoney(int accountIndex, double withdrawAmount) {
         if (withdrawAmount > accountBalances[accountIndex] || withdrawAmount <= 0) {
             return -1;
@@ -87,6 +101,9 @@ public class AtmAppFunction {
         }
     }
 
+
+
+    
     public static double transferMoney(int accountIndex, double transferAmount) {
         if (transferAmount <= 0 || transferAmount > accountBalances[accountIndex]) {
             return -1;
@@ -96,14 +113,23 @@ public class AtmAppFunction {
         }
     }
 
+
+
+    
     public static String changePin(int accountIndex, String newPin) {
         userPins[accountIndex] = newPin;
         return "Pin changed successfully.";
     }
 
+
+
+    
     public static double getAccountBalance(int accountIndex) {
         return accountBalances[accountIndex];
     }
+
+
+
     
     public static void main(String[] args) {
         createAccounts();
