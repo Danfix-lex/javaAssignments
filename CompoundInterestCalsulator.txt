@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class CompoundInterestCalculatorDaysWeeks {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input values from the user
+        System.out.print("Enter the principal amount (P): ");
+        double principal = scanner.nextDouble();
+
+        System.out.print("Enter the annual interest rate (in %, e.g., 5 for 5%): ");
+        double rate = scanner.nextDouble() / 100; // Convert to decimal
+
+        System.out.print("Do you want to calculate for (1) Days or (2) Weeks? Enter 1 or 2: ");
+        int choice = scanner.nextInt();
+
+        double timeInYears = 0;
+        int compounded = 0;
+
+        if (choice == 1) { // Daily compounding
+            System.out.print("Enter the number of days: ");
+            int days = scanner.nextInt();
+            timeInYears = days / 365.0; // Convert days to years
+            compounded = 365; // Daily compounding
+        } else if (choice == 2) { // Weekly compounding
+            System.out.print("Enter the number of weeks: ");
+            int weeks = scanner.nextInt();
+            timeInYears = weeks / 52.0; // Convert weeks to years
+            compounded = 52; // Weekly compounding
+        } else {
+            System.out.println("Invalid choice! Please restart the program.");
+            scanner.close();
+            return;
+        }
+
+        // Calculate compound interest
+        double amount = principal * Math.pow(1 + (rate / compounded), compounded * timeInYears);
+        double compoundInterest = amount - principal;
+
+        // Display results
+        System.out.printf("Total Amount (A): %.2f%n", amount);
+        System.out.printf("Compound Interest: %.2f%n", compoundInterest);
+
+        scanner.close();
+    }
+}
+

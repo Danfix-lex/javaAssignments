@@ -1,0 +1,34 @@
+Phone Book
+pseudocode
+
+ask user for name
+collect it
+store as user name
+display welcome (user name) to your phone book
+display all the functions for the user(add contact, remove contact, find contact by phone number, find contact by first name, find contact by last name, edit contact and exit)
+
+display add contact
+diaplay exit
+if user choses add contact
+ask the user to enter the number the user wants to add
+collect it
+store and add to new contact
+if the user chooses exist, go back to the main page
+
+display remove contact
+display exit
+if user chooses remove contact
+ask the user to enter the phone number he wants to delete
+remove contact from the contact
+if the user choose exit, go back to the main page
+
+display find contact by phone number
+display exit
+if user choose find contact by phone number
+ask the user to enter the phone number of the contact to be found
+find contact and display or print out contact
+if user chooses exit, go back to the main page
+
+display find contact by last name
+display exit
+if user choose find contact by

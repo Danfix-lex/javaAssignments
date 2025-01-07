@@ -3,7 +3,7 @@ import java.time.format.DateTimeFormatter;
 
 public class MenstrualPeriodApp {
   public static void main (String[] args) {
-    String lmp = "2024-11-02";
+    String lmp = "2024-12-20";
     int cycleLength = 28;
     
     String[] myMenstrual = calculateMenstrualCycle(lmp, cycleLength);
