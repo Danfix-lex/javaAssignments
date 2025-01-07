@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BarChart {
+public class barChart {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] numbers = new int[5];
@@ -14,13 +14,12 @@ public class BarChart {
             }
             numbers[i] = num;
         }
-
+      System.out.println();
         for (int num : numbers) {
             for (int j = 0; j < num; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
-        scanner.close();
     }
 }

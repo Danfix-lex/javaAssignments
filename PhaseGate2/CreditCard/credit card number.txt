@@ -1,0 +1,15 @@
+credit card number
+
+pseudocode
+prompt user to enter card numbers
+collect it
+store as card numbers
+create a loop and loop through the card numbers, if the first number starts from 4 (its a visa card), if the first number starts from 5 (its a master card), if the first two numbers starts from 37 (its an american express card) and if the first number starts from 6 (its a discover card)
+loop through again and check if the numbers all together entered is between 12 and 16 numbers and nothing below or above, and start adding each digit from left to right (add the first digit starting from left that skip the second number and add the next and continue the rest of the digit in that pattern), after that add the left over numbers from the right to the left, after that add the total of the first set of number calculation and the second set of number calculation and check if the total is divisible by 10, if true its valid, if false its invalid.
+display the card type
+display the card number
+display the card digit length
+display the card validity status
+
+
+

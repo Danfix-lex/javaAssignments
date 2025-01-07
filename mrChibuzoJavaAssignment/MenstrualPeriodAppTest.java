@@ -5,7 +5,7 @@ public class MenstrualPeriodAppTest {
 
     @Test
     public void testCalculateMenstrualCycle() {
-        String lmp = "2024-11-01";
+        String lmp = "2024-12-20";
         int cycleLength = 28;
 
         String[] expected = {

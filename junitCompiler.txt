@@ -1,0 +1,5 @@
+// COMPILER
+javac -cp "junit-platform-console-standalone-1.11.3.jar" pangramCheckerTest.java pangramChecker.java
+
+// EXECUTOR
+java -jar junit-platform-console-standalone-1.11.3.jar --classpath . --scan-classpath --include-classname pangramCheckerTest
