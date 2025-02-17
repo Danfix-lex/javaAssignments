@@ -7,6 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
     <orderEntry type="library" name="alphabetStringTest" level="project" />
     <orderEntry type="library" name="primeCheckTest" level="project" />
     <orderEntry type="library" name="ATM" level="project" />
@@ -14,5 +15,14 @@
     <orderEntry type="library" name="firstLetterCapital" level="project" />
     <orderEntry type="library" name="MenstrualPeriodApp" level="project" />
     <orderEntry type="library" name="mrChibuzoJavaAssignment" level="project" />
+=======
+    <orderEntry type="library" name="ATM" level="project" />
+    <orderEntry type="library" name="MenstrualPeriodApp" level="project" />
+    <orderEntry type="library" name="mrChibuzoJavaAssignment" level="project" />
+    <orderEntry type="library" name="firstLetterCapital" level="project" />
+    <orderEntry type="library" name="primeCheckTest" level="project" />
+    <orderEntry type="library" name="FirstTask" level="project" />
+    <orderEntry type="library" name="alphabetStringTest" level="project" />
+>>>>>>> da77a37a069dd9621dd92d49ced5c599dd01d2aa
   </component>
 </module>
