@@ -18,7 +18,5 @@ public class MainApplication {
         } else {
             System.out.println("The state " + state + " is not recognized.");
         }
-        
-        scanner.close();
     }
 }

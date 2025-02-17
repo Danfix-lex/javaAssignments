@@ -15,8 +15,8 @@ public enum GeoPoliticalZone {
     }
 
     public boolean containsState(String state) {
-        for (String s : states) {
-            if (s.equalsIgnoreCase(state)) {
+        for (String zones : states) {
+            if (zones.equalsIgnoreCase(state)) {
                 return true;
             }
         }
