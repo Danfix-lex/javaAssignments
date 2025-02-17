@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f597ef66-8e5d-451e-a232-d1b16d87f67a" name="Changes" comment="java">
+      <change afterPath="$PROJECT_DIR$/../BankCurrent/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BankCurrent/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BankCurrent/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BankCurrent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BankCurrent/BankCurrent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BankCurrent/src/ATM/Atm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BankCurrent/src/AccountFunction/AccountFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BankCurrent/src/AccountTest/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BankCurrent/src/BankFunction/BankFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BankCurrent/src/BankTest/BankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bank/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BikeCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BikeCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdeaProjects/javaAssignments" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaProjects/javaAssignments" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONBAs8c6G6GVO&quot;,
+        &quot;number&quot;: 1
+      },
+      &quot;lastSeen&quot;: 1738060674152
+    }
+  ]
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Danfix-lex/javaAssignments.git&quot;,
+    &quot;accountId&quot;: &quot;4b56e56a-9e7b-4721-812a-1980febf12ac&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2sDUBnSMgJF6Oi1IQxp9BSCRJJW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JUnit.AccountTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.AccountTest.testForBalanceCheck.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testForDepositAmount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testForToChangePin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testForUpdatePin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testForWithdrawAmount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testForWrongDepositAmount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testIfAccountDoesNotExist.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testInitialState.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/danfix/javaAssignments/BikeCurrent&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../BikeCurrent" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountTest">
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bike" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AccountTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AccountTest" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest.AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.testForBalanceCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bike" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AccountTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AccountTest" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest.AccountTest" />
+      <option name="METHOD_NAME" value="testForBalanceCheck" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.testForToChangePin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bike" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AccountTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AccountTest" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest.AccountTest" />
+      <option name="METHOD_NAME" value="testForToChangePin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.testForUpdatePin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bike" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AccountTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AccountTest" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest.AccountTest" />
+      <option name="METHOD_NAME" value="testForUpdatePin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bike" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BankTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BankTest" />
+      <option name="MAIN_CLASS_NAME" value="BankTest.BankTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.BankTest" />
+        <item itemvalue="JUnit.AccountTest.testForToChangePin" />
+        <item itemvalue="JUnit.AccountTest.testForUpdatePin" />
+        <item itemvalue="JUnit.AccountTest.testForBalanceCheck" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f597ef66-8e5d-451e-a232-d1b16d87f67a" name="Changes" comment="" />
+      <created>1737989507395</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737989507395</updated>
+      <workItem from="1737989508696" duration="8355000" />
+      <workItem from="1738004604089" duration="628000" />
+      <workItem from="1738006246107" duration="19034000" />
+      <workItem from="1738051426571" duration="6417000" />
+      <workItem from="1738059973559" duration="161000" />
+      <workItem from="1738060194196" duration="99000" />
+      <workItem from="1738060503103" duration="821000" />
+      <workItem from="1738128355880" duration="627000" />
+      <workItem from="1738169061880" duration="15000" />
+    </task>
+    <task id="LOCAL-00001" summary="java">
+      <option name="closed" value="true" />
+      <created>1738050706795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738050706795</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java">
+      <option name="closed" value="true" />
+      <created>1738051351528</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738051351528</updated>
+    </task>
+    <task id="LOCAL-00003" summary="java">
+      <option name="closed" value="true" />
+      <created>1738051478527</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738051478527</updated>
+    </task>
+    <task id="LOCAL-00004" summary="java">
+      <option name="closed" value="true" />
+      <created>1738053546915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738053546915</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java" />
+    <option name="LAST_COMMIT_MESSAGE" value="java" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Bike$AccountTest.ic" NAME="AccountTest Coverage Results" MODIFIED="1738051534123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>AccountTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Bike$BankTest.ic" NAME="BankTest Coverage Results" MODIFIED="1738051521945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>BankTest.*</FILTER>
+    </SUITE>
+  </component>
+</project>

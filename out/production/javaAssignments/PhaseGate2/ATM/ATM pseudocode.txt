@@ -1,0 +1,67 @@
+ATM
+pseudocode
+
+initialise numbers of account to be created ad numaccounts to 5
+initialise a string array with name usernames and assign the length to numaccounts
+initialise a string array with name userpins and assign the length to numaccounts
+initialise a string array with name userdateofbirths and assign the length to nuwaccounts
+initialise a double array with name accountbalances and assign the length to numaccounts
+loop through numaccounts and create account for users 
+display if the user wants to create/countine creating account(s), if not user should input 0 to exit
+ask for user full name
+collect it 
+store it inside the array user name
+ask user to create atm pin
+collect it
+store it inside the array user pins
+ask user for date of birth
+collect it
+store it inside the array user date of births
+ask user to enter pin to continue if pin is false ask user again and repeat
+if true
+display the options that are in the atm for the user to choose (This are the options: Close account, Deposit money, Withdraw money, Check Account balance, Transfer from one account to another, Change pin and exit)
+
+display close account
+display exit
+if close account is chosen ask user for pin if pin is false ask user again and repeat
+if true
+close account and start again
+if exit is chosen go back to the display options
+
+display deposit money
+display exit
+if deposit money is chosen ask user for pin if pin is false ask user again and repeat
+if true
+ask user how much does the user want to deposit
+collect amount
+store as account balance
+if exit is chosen go back to the display options
+
+display withdraw money
+display exit
+if withdraw money is chosen ask user for pin if pin is false ask user again and repeat
+if true
+ask user how much do they want to withdraw
+if user enters 0, repeat and ask the user again to enter an amount greater than 0
+if user enter amount greater than account balance, repeat and tell the user insufficient funds and tell the user to enter amount again
+if the user enters amount above 0 and not above account balance, subtract withdraw amount from account balance and update the account balance
+if exit is chosen go back to the display options
+
+
+display check account balance
+display exit
+if account balance is chosen ask user for pin if pin is false ask user again and repeat
+if true
+display the updated account balance
+if exit is chosen go back to the display options
+
+display transfer from one account to another
+display exit
+if transfer from one account to another is chosen ask user for pin if pin is false ask user again and repeat
+if true
+ask user for account number, if account number is greater that 10 numbers and less than 10 tell user that account number does not exist, repeat again
+ask user for amount, if amount is greater than account balance tell user that account is not sufficient for this transfer, repeat again, if amount is less than 0 tell user that invalid amount, repeat again
+
+display change pin
+display exit
+if change pin is chosen ask user for pin, if true then ask user for new pin, collect new pin and update pin to new pin, if false ask user for date of birth, if true then ask user for new pin, collect new pin and update pin to new pin.

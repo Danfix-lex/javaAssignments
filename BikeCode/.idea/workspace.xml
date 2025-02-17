@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15bddaf5-167c-4110-a02e-420c73694c7f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Bank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bank/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bike/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bike/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdeaProjects/javaAssignments" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaProjects/javaAssignments" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Danfix-lex&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Danfix-lex/javaAssignments.git&quot;,
+    &quot;accountId&quot;: &quot;6babea35-09db-47ae-9fb3-f1c3aba7219d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2sCTOLdLvw90GNfwbE5K01PAKhE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JUnit.BikeFunctionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BikeFunctionTest.testAccelerateInGearTwo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BikeFunctionTest.testDecelerateInGearThree.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BikeFunctionTest.testGearChangeOnAcceleration.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/danfix/javaAssignments/BikeCode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="BikeFunctionTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BikeFunctionTest">
+    <configuration name="BikeFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BikeFunctionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BikeFunctionTest" />
+      <option name="MAIN_CLASS_NAME" value="BikeFunctionTest.BikeFunctionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BikeFunctionTest.testAccelerateInGearTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BikeFunctionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BikeFunctionTest" />
+      <option name="MAIN_CLASS_NAME" value="BikeFunctionTest.BikeFunctionTest" />
+      <option name="METHOD_NAME" value="testAccelerateInGearTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BikeFunctionTest.testDecelerateInGearThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BikeFunctionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BikeFunctionTest" />
+      <option name="MAIN_CLASS_NAME" value="BikeFunctionTest.BikeFunctionTest" />
+      <option name="METHOD_NAME" value="testDecelerateInGearThree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BikeFunctionTest.testGearChangeOnAcceleration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BikeFunctionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BikeFunctionTest" />
+      <option name="MAIN_CLASS_NAME" value="BikeFunctionTest.BikeFunctionTest" />
+      <option name="METHOD_NAME" value="testGearChangeOnAcceleration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BikeFunctionTest" />
+        <item itemvalue="JUnit.BikeFunctionTest.testAccelerateInGearTwo" />
+        <item itemvalue="JUnit.BikeFunctionTest.testGearChangeOnAcceleration" />
+        <item itemvalue="JUnit.BikeFunctionTest.testDecelerateInGearThree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15bddaf5-167c-4110-a02e-420c73694c7f" name="Changes" comment="" />
+      <created>1737958524661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737958524661</updated>
+      <workItem from="1737958525792" duration="10331000" />
+      <workItem from="1737971437672" duration="8303000" />
+      <workItem from="1737988269461" duration="1129000" />
+      <workItem from="1737989422437" duration="2737000" />
+      <workItem from="1738004636125" duration="1389000" />
+      <workItem from="1738057468185" duration="605000" />
+      <workItem from="1738059999023" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

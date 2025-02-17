@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/out/production/Bike" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="mrChibuzoJavaAssignment2" level="project" />
+    <orderEntry type="library" name="FirstTask" level="project" />
+    <orderEntry type="library" name="firstLetterCapital" level="project" />
+    <orderEntry type="library" name="MenstrualPeriodApp2" level="project" />
+    <orderEntry type="library" name="primeCheckTest2" level="project" />
+    <orderEntry type="library" name="firstLetterCapital2" level="project" />
+    <orderEntry type="library" name="mrChibuzoJavaAssignment" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="ATM" level="project" />
+    <orderEntry type="library" name="MenstrualPeriodApp" level="project" />
+    <orderEntry type="library" name="alphabetStringTest2" level="project" />
+    <orderEntry type="library" name="alphabetStringTest" level="project" />
+    <orderEntry type="library" name="FirstTask2" level="project" />
+    <orderEntry type="library" name="ATM2" level="project" />
+    <orderEntry type="library" name="lib2" level="project" />
+    <orderEntry type="library" name="primeCheckTest" level="project" />
+  </component>
+</module>

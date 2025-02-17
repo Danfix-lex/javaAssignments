@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="primeCheckTest">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/functionTest/primeCheckTest/junit-platform-commons-1.11.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/functionTest/primeCheckTest/opentest4j-1.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/functionTest/primeCheckTest/junit-jupiter-api-5.11.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/functionTest/primeCheckTest/junit-platform-console-standalone-1.11.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/functionTest/primeCheckTest/apiguardian-api-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

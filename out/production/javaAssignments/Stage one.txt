@@ -1,0 +1,4 @@
+Stage one
+1.	Create a variable
+2.	Collect user name
+3.	Display 

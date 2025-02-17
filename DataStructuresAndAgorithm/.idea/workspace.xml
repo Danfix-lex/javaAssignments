@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="375d6104-777d-4d37-929f-e5f0909f9ccf" name="Changes" comment="java">
+      <change afterPath="$PROJECT_DIR$/../Bike TDD/Bike TDD/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike TDD/Bike TDD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike TDD/Bike TDD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike TDD/Bike TDD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike TDD/Bike TDD/Bike TDD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike TDD/Bike TDD/Bike Test/Bike Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike TDD/Bike TDD/BikeFunction/BikeFunction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike TDD/Bike TDD/BikeFunction/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike TDD/Bike TDD/src/BikeFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike/Bike/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike/Bike/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike/Bike/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike/Bike/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike/Bike/Bike.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike/Bike/BikeFunction/BikeFunction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bike/Bike/BikeTest/BikeTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BikeCode/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BikeCode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BikeCode/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BikeCode/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BikeCode/BikeCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BikeCode/src/BikeFunction/BikeFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BikeCode/src/BikeFunctionTest/BikeFunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/DSA/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/DSA/SetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/QueueFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/SetFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/DSA/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/DSA/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdeaProjects/javaAssignments" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaProjects/javaAssignments" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Danfix-lex&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Danfix-lex/javaAssignments.git&quot;,
+    &quot;accountId&quot;: &quot;2d96073e-7084-4589-9fe3-6dd830617859&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ryzHuVP8MXxbok5bMK6N9omfQJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.DSA in DataStructuresAndAgorithm.executor": "Coverage",
+    "JUnit.ListTest.executor": "Coverage",
+    "JUnit.ListTest.testAdd.executor": "Run",
+    "JUnit.ListTest.testElementAdd.executor": "Run",
+    "JUnit.ListTest.testElementRemove.executor": "Run",
+    "JUnit.ListTest.testIndexOfList.executor": "Run",
+    "JUnit.ListTest.testIsEmpty.executor": "Run",
+    "JUnit.ListTest.testIsNotEmpty.executor": "Run",
+    "JUnit.ListTest.testMultipleElementAdd.executor": "Run",
+    "JUnit.ListTest.testMultipleElementRemove.executor": "Run",
+    "JUnit.ListTest.testMyList.executor": "Coverage",
+    "JUnit.ListTest.testRemoveIndexOfList.executor": "Run",
+    "JUnit.ListTest.testSize.executor": "Run",
+    "JUnit.ListTest.testToSeeElement.executor": "Run",
+    "JUnit.QueueTest.addMultipleElementsToQueue.executor": "Run",
+    "JUnit.QueueTest.addToQueue.executor": "Run",
+    "JUnit.QueueTest.dequeueFromQueue.executor": "Run",
+    "JUnit.QueueTest.executor": "Coverage",
+    "JUnit.QueueTest.isEmpty.executor": "Run",
+    "JUnit.QueueTest.removeFromQueue.executor": "Run",
+    "JUnit.QueueTest.removeMultipleElementsFromQueue.executor": "Run",
+    "JUnit.QueueTest.testFunction.executor": "Run",
+    "JUnit.SetTest.executor": "Run",
+    "JUnit.SetTest.testAdd.executor": "Run",
+    "JUnit.SetTest.testClear.executor": "Run",
+    "JUnit.SetTest.testContains.executor": "Run",
+    "JUnit.SetTest.testEmptySet.executor": "Run",
+    "JUnit.SetTest.testFunction.executor": "Run",
+    "JUnit.SetTest.testIsNotEmpty.executor": "Run",
+    "JUnit.SetTest.testRemove.executor": "Run",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "java.suggest.annotation.dependency": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/danfix/javaAssignments",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.." />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ListTest">
+    <configuration name="DSA in DataStructuresAndAgorithm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DSA" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DSA" />
+      <option name="MAIN_CLASS_NAME" value="DSA.ListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DSA" />
+      <option name="MAIN_CLASS_NAME" value="DSA.QueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.removeFromQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DSA" />
+      <option name="MAIN_CLASS_NAME" value="DSA.QueueTest" />
+      <option name="METHOD_NAME" value="removeFromQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.removeMultipleElementsFromQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DSA" />
+      <option name="MAIN_CLASS_NAME" value="DSA.QueueTest" />
+      <option name="METHOD_NAME" value="removeMultipleElementsFromQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ListTest" />
+        <item itemvalue="JUnit.DSA in DataStructuresAndAgorithm" />
+        <item itemvalue="JUnit.QueueTest" />
+        <item itemvalue="JUnit.QueueTest.removeFromQueue" />
+        <item itemvalue="JUnit.QueueTest.removeMultipleElementsFromQueue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="375d6104-777d-4d37-929f-e5f0909f9ccf" name="Changes" comment="" />
+      <created>1737546019874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737546019874</updated>
+      <workItem from="1737546021153" duration="5003000" />
+      <workItem from="1737551590337" duration="14917000" />
+      <workItem from="1737574327501" duration="1190000" />
+      <workItem from="1737612967208" duration="10055000" />
+      <workItem from="1737644336499" duration="830000" />
+      <workItem from="1737652777848" duration="157000" />
+      <workItem from="1737956861464" duration="1022000" />
+    </task>
+    <task id="LOCAL-00001" summary="java">
+      <option name="closed" value="true" />
+      <created>1737546357446</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737546357446</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java">
+      <option name="closed" value="true" />
+      <created>1737558724818</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737558724818</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java" />
+    <option name="LAST_COMMIT_MESSAGE" value="java" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataStructuresAndAgorithm$ListTest_testMultipleElementRemove.ic" NAME="ListTest.testMultipleElementRemove Coverage Results" MODIFIED="1737556313089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>DSA.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataStructuresAndAgorithm$ListTest_testElementAdd.ic" NAME="ListTest.testElementAdd Coverage Results" MODIFIED="1737553240430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>DSA.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataStructuresAndAgorithm$ListTest_testIsNotEmpty.ic" NAME="ListTest.testIsNotEmpty Coverage Results" MODIFIED="1737551740298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>DSA.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataStructuresAndAgorithm$ListTest.ic" NAME="ListTest Coverage Results" MODIFIED="1737617318365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>DSA.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataStructuresAndAgorithm$ListTest_testMyList.ic" NAME="ListTest.testMyList Coverage Results" MODIFIED="1737549278242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>DSA.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataStructuresAndAgorithm$DSA_in_DataStructuresAndAgorithm.ic" NAME="DSA in DataStructuresAndAgorithm Coverage Results" MODIFIED="1737614661791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>DSA.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataStructuresAndAgorithm$ListTest_testSize.ic" NAME="ListTest.testSize Coverage Results" MODIFIED="1737549707494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>DSA.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataStructuresAndAgorithm$QueueTest.ic" NAME="QueueTest Coverage Results" MODIFIED="1737569685738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>DSA.*</FILTER>
+    </SUITE>
+  </component>
+</project>

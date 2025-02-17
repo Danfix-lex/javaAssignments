@@ -1,0 +1,15 @@
+Pseudocode
+Stage one
+    Collect integers
+    Calculate negative, positive and zero of integers
+    Display result
+    
+Stage two
+    prompt user to enter numbers
+    Collect and store numbers as num1
+    Create variables of positive, zero and negative and assign positive to 0, zero to 0 and negative to 0
+    create variable i and set to 0
+    Calculate positive, negative and zero as if number inputed is > 0, then increase positive by 1, else if number is < 0, then increase negative by 1, else then increase zero by 1
+    Display positive
+    Display negative
+    Display zero

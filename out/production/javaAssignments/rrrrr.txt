@@ -1,0 +1,9 @@
+Stage one
+1.	Create integers
+2.	Calculate sum
+3.	Display
+Stage two
+1.	Create Integer
+2.	Calculate as 4 multiplied by 10 plus 2 multiplied by 4 divided by 2
+3.	Store as sum
+4.	Display

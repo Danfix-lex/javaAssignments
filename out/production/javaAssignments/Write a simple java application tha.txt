@@ -1,0 +1,10 @@
+Write a simple java application that displays the sum of (3+4+7+9+10)/2
+
+Stage one
+1.	Collect integers
+2.	Calculate the sum of integers
+3.	Display
+Stage two
+1.	Create integers
+2.	Calculate the sum of integers by adding them all together and dividing them by two
+3.	Display result
